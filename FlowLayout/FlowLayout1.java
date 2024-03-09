@@ -1,7 +1,7 @@
 import java.util.*;
 import java.awt.*;
 import javax.swing.*;
-public class FirstGui{
+public class FlowLayout1{
     public static void main(String [] args){
         JFrame newFrame = new JFrame("First Frame");
         newFrame.setSize(500, 500);
