@@ -11,14 +11,13 @@ public class BorderLayout1{
         JButton b1 = new JButton("South");
         JButton b2 = new JButton("East");
         JButton b3 = new JButton("West");
-        JButton b4 = new JButton("Center");
         Container c = newFrame.getContentPane();
         c.setLayout(new BorderLayout());
         c.add(b0, BorderLayout.NORTH);
         c.add(b1, BorderLayout.SOUTH);
         c.add(b2, BorderLayout.EAST);
         c.add(b3, BorderLayout.WEST);
-        c.add(b4, BorderLayout.CENTER);        
+        c.add(t, BorderLayout.CENTER);        
         newFrame.setVisible(true);
     }
 }
