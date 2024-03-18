@@ -6,12 +6,12 @@ import javax.swing.*;
 
  public class keyListner extends JFrame implements KeyListener {
     JLabel l;
-    TextArea area;
+    JTextArea area;
 
     keyListner() {
         l = new JLabel();
         l.setBounds(20, 50, 100, 20);
-        area = new TextArea();
+        area = new JTextArea();
         area.setBounds(20, 80, 300, 300);
         area.addKeyListener(this);
         add(l);
