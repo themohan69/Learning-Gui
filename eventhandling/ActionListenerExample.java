@@ -1,5 +1,4 @@
 package eventhandling;
-
 import java.awt.event.*;
 import javax.swing.*;
 
@@ -29,7 +28,6 @@ public class ActionListenerExample implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         t.setText("Hello Boy");
     }
-
     public static void main(String args[]) {
         ActionListenerExample ob1 = new ActionListenerExample();
     }
