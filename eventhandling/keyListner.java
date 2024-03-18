@@ -1,10 +1,9 @@
 package eventhandling;
 
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
- public class keyListner extends JFrame implements KeyListener {
+public class keyListner extends JFrame implements KeyListener {
     JLabel l;
     JTextArea area;
 
@@ -20,7 +19,7 @@ import javax.swing.*;
         setLayout(null);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+
     }
 
     public void keyPressed(KeyEvent e) {
